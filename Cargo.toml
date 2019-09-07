@@ -1,6 +1,6 @@
 [package]
 name = "bk_allocator"
-version = "0.1.0"
+version = "0.1.1-alpha.0"
 authors = ["Andrey Cherkashin <andoriyu@gmail.com>"]
 description = "FreeBSD's kernel space allocator"
 edition = "2018"
