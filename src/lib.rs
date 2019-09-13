@@ -41,3 +41,6 @@ unsafe impl GlobalAlloc for BkAllocator {
         ) as *mut u8
     }
 }
+
+#[global_allocator]
+static BK_ALLOCATOR: BkAllocator = BkAllocator;
